@@ -32,7 +32,6 @@ export default class registerNews extends Component {
                 <Header />
                 < Form uptadeField={e => uptadeFieldClass(e, this)}
                     save={(e) => this.save(e)}
-                    clear={e => this.clear(e)}
                 />
             </>
         )
