@@ -12,6 +12,7 @@ export default function App() {
     return (
         <BrowserRouter>
             <div className="App">
+                {/*Header will be add in the main components*/}
                 <Routes />
                 <Footer />
             </div>
