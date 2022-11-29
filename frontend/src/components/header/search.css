@@ -1,0 +1,41 @@
+.search-container-show {
+    position: relative;
+    width: 220px;
+    height: 30px;
+    background-color: #fff;
+
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(20, 20, 180, 0.7);
+}
+
+.search-container-hidden {
+    display: none;
+}
+
+.input-text-area {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.search-field {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 90%;
+    height: 85%;
+}
+.search-field:focus {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+
+.search-button {
+    position: absolute;
+    right: 0px;
+    top: 28%;
+
+    margin-right: 5px;
+
+    cursor: pointer;
+}

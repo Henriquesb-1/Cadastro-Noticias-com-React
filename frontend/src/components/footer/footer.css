@@ -1,0 +1,10 @@
+.footer {
+    background-color: rgba(50, 120, 195, 0.5);
+    width: 100%;
+}
+
+.footer-container {
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+}

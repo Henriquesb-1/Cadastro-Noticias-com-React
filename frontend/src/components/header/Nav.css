@@ -1,0 +1,30 @@
+.navegation a {
+    text-decoration: none;
+    color: var(--font-color);
+    padding: 15px;
+    margin: 0 5px;
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.navegation a:hover {
+    background-color: rgba(150, 50, 180, 0.7);
+    border-radius: 15px;
+    box-shadow: 0px 1px 0px 1px #0ff;
+}
+
+@media screen and (max-width: 580px) {
+    .navegation a:hover {
+        background: none;
+        box-shadow: none;
+    }
+}
+@media screen and (min-width: 380px) and (max-width: 580px) {
+    .navegation a:hover {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 379px) {
+    .navegation a:hover {
+        font-size: initial;
+    }
+}
