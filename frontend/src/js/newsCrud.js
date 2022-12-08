@@ -2,7 +2,7 @@
 
 import Axios from "axios"
 
-const url = "http://localhost:3001/news"
+const url = "https://cadastro-noticias-com-react-backend.vercel.app/news"
 
 function refreshBeforeRender() {
     return Axios(url)
