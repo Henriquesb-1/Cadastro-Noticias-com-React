@@ -30,7 +30,6 @@ export default class EditNews extends Component {
 
     loadForm(news) {
         this.setState({ news: news })
-        console.log(news)
     }
 
     searchForNews(e) {
